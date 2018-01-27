@@ -16,6 +16,6 @@ public class AutorBean {
 
 	public void gravar() {
 		new DAO<Autor>(Autor.class).gravar(this.getAutor());
-		this.autor = new Autor(); // serve para limpar preenchimento do input do formulario
+		this.autor = new Autor(); // Isso serve para limpar preenchimento do input do formulario
 	}
 }
